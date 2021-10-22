@@ -1,0 +1,17 @@
+metadata_version: 1
+name: 'MLWA Enhancing the Pattern Recognition Capacity of Machine Learning Techniques: The Importance of Feature Positioning'
+description: |-
+  We design several algorithms representing evaluation processes of different complexity, ranging from basic environments based on a predetermined number of features to complex structures involving alternatives defined through decision trees whose number of nodes is determined by the cardinality of the respective power sets. The sequential structure of these evaluation processes builds on the information retrieval behavior of users in online search environments. The algorithms generate two strings of data, namely, numerical evaluations determining the retrieval behavior of users and the subsequent choices made by the latter. The way the output obtained from the algorithms is inputted within the vectors summarizing the complexity of the evaluation processes conditions the capacity of machine learning techniques to categorize them correctly. The main purpose of the research is to illustrate numerically two main results. First, machine learning techniques categorize processes correctly even if their characteristic features are presented in a way that prevents their identification using standard statistical techniques. Second, the accuracy of the categorization capacities of these techniques can be substantially enhanced by describing the retrieval processes in the way required to implement standard statistical analyses. We perform a battery of tests using machine learning techniques to demonstrate and analyze these results. Their applicability to classification and prediction problems in medical environments, particularly those constrained by the quality of the data available, is emphasized.
+
+
+  The code corresponds to the three evaluation processes described in Figures 5 to 7 within Section 2.1 of the paper. Each evaluation process, defined as Ordered, Grouped and Complete, has been simulated within three scenarios of increasing complexity. These scenarios correspond to information retrieval processes aiming to evaluate two, six and ten satisfying alternatives among those composing the initial page of results delivered by a search engine.
+authors:
+- name: Debora Di Caprio
+  affiliations:
+  - name: University of Trento
+- name: Francisco Javier Santos Arteaga
+  affiliations:
+  - name: Free University of Bolzano
+corresponding_contributor:
+  name: Debora Di Caprio
+  email: debora.dicaprio@unitn.it
